@@ -2,7 +2,7 @@
 
 Site Pokédex affichant des informations détaillées sur les Pokémon.
 
-![Demo Page Screenshot](images/demo_screenshot.png)
+![Demo Page Screenshot](images/demo-screenshot.png)
 
 ## Description
 
