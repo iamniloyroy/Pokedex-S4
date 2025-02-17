@@ -1,0 +1,250 @@
+body {
+    background-color: #efefef !important;
+    padding-bottom: 70px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.active {
+    font-weight: 500;
+}
+
+
+.btn-modif{
+    color: white !important;
+    width: 100%;
+}
+
+.btn-modif:hover{
+    box-shadow: 3px 3px 2px 1px rgba(175, 173, 173, 0.75);
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+
+.footerPokemon {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+
+.my-4 {
+    margin-bottom: 0px !important;
+}
+
+
+/* Index.php */
+.card-pokemon {
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.card-pokemon:hover {
+    box-shadow: 12px 12px 2px 1px rgba(105, 105, 105, 0.75);
+    transform: translateY(-10px);
+}
+
+.corner-image img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* Pokemon.php */
+
+.imagesTypes {
+    width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pokemonType {
+    width: 90px !important;
+    height: auto;
+    margin-right: 5px;
+}
+
+.pokemonTypeSmall {
+    width: 65px !important;
+    height: auto;
+    margin-right: 5px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vuOuAttrapeText {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.pokemonAvatar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-t5 {
+    margin-top: 5px;
+}
+
+
+/* Timeline */
+
+.horizontal-timeline {
+    margin-top: 50px;
+}
+
+.horizontal-timeline .items {
+    border-top: 3px solid #e9ecef;
+}
+
+.horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+
+.horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+}
+
+.horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-top: 8px;
+}
+
+@media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+        display: inline-block;
+        width: 33%;
+        padding-top: 25px;
+    }
+
+    .horizontal-timeline .items .items-list .event-date {
+        top: -40px;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .horizontal-timeline .items {
+        border: none;
+    }
+}
+
+
+
+
+/* Connexion.php */
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ecf0f4 !important;
+    border: none !important;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(68, 189, 245);
+}
+
+input[type="number"] {
+    border: none !important;
+    background-color: #ecf0f4 !important;
+}
+
+input[type="number"]:focus {
+    box-shadow: none;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+.btnCustom {
+    background-color: #d6d9db;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.btnCustom:focus,
+.btnCustom:active {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+select:focus,
+select:active {
+    box-shadow: 0px 0px 10px rgb(68, 189, 245) !important;
+    outline: none;
+}
+
+option {
+    background-color: #ecf0f4;
+    font-size: large;
+    color: black;
+}
+
+.card-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
